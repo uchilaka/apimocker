@@ -1,5 +1,5 @@
 {
-  "name": "apimocker",
+  "name": "apimocker-ts",
   "description": "Simple HTTP server that returns mock service API responses to your front end.",
   "version": "1.1.3",
   "engines": {
@@ -8,6 +8,10 @@
   },
   "author": "Greg Stroup <gstroup@gmail.com>",
   "dependencies": {
+    "@types/express": "^4.17.0",
+    "@types/jsonfile": "^5.0.0",
+    "@types/multer": "^1.3.7",
+    "@types/underscore": "^1.9.2",
     "body-parser": "1.18.2",
     "chalk": "^2.4.1",
     "commander": "2.11.0",
@@ -20,6 +24,10 @@
     "untildify": "3.0.2"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
+    "apimocker": "^1.1.3",
+    "apimocker-ts-definition": "^0.1.4",
     "chai": "^4.2.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -31,7 +39,8 @@
     "mocha": "^5.2.0",
     "mock-require": "^3.0.2",
     "sinon": "^7.1.1",
-    "supertest": "^3.3.0"
+    "supertest": "^3.3.0",
+    "typescript": "^3.5.3"
   },
   "main": "./lib/apimocker.js",
   "bin": {
