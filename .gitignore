@@ -3,3 +3,4 @@ mocks/*
 uploads/*
 .DS_Store
 .vscode/*
+dist

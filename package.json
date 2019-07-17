@@ -75,7 +75,8 @@
   "scripts": {
     "test": "eslint . && mocha test/*.js",
     "start": "node bin/apimocker.js -c config.json",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "tsc --project tsconfig.json"
   },
   "license": "MIT"
 }
